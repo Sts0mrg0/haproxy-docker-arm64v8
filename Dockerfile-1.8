@@ -5,24 +5,16 @@ MAINTAINER Dinko Korunic <dkorunic@haproxy.com>
 LABEL Name HAProxy OSS
 LABEL Release OSS Edition
 LABEL Vendor HAProxy
-LABEL Version 1.8.5
+LABEL Version 1.8.17
 LABEL RUN /usr/bin/docker -d IMAGE
 
 ENV HAPROXY_BRANCH 1.8
-ENV HAPROXY_MINOR 1.8.5
-ENV HAPROXY_MD5 a640cb01532462a6d0758e71d5f0a596
+ENV HAPROXY_MINOR 1.8.17
+ENV HAPROXY_MD5 d744b31ba729fc08bcf51887dba30486
 ENV HAPROXY_SRC_URL http://www.haproxy.org/download
 
 ENV HAPROXY_UID haproxy
 ENV HAPROXY_GID haproxy
-
-ARG QEMU_VER=2.11.0
-ADD https://github.com/multiarch/qemu-user-static/releases/download/v${QEMU_VER}/qemu-aarch64-static /tmp/qemu-aarch64-static
-RUN mv /tmp/qemu-aarch64-static /usr/bin/qemu-aarch64-static && chmod +x /usr/bin/qemu-aarch64-static
-
-ADD bin/* /usr/bin/
-
-RUN [ "cross-build-start" ]
 
 RUN apt-get update && \
     apt-get install -y libssl1.0.0 zlib1g libpcre3 tar curl socat && \
@@ -43,8 +35,6 @@ RUN apt-get update && \
     rm -rf /tmp/haproxy && \
     apt-get purge -y --auto-remove gcc make libc6-dev libssl-dev libpcre3-dev zlib1g-dev && \
     apt-get clean
-
-RUN [ "cross-build-end" ]
 
 ADD ./cfg_files/cli /usr/bin/cli
 ADD ./cfg_files/haproxy.cfg /etc/haproxy/haproxy.cfg
