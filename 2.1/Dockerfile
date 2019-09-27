@@ -1,4 +1,4 @@
-FROM arm64v8/ubuntu
+FROM arm64v8/ubuntu:bionic
 
 MAINTAINER Dinko Korunic <dkorunic@haproxy.com>
 
