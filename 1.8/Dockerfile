@@ -16,7 +16,7 @@ ENV HAPROXY_SRC_URL http://www.haproxy.org/download
 ENV HAPROXY_UID haproxy
 ENV HAPROXY_GID haproxy
 
-COPY qemu-arm-static /usr/bin
+COPY qemu-aarch64-static /usr/bin
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends libssl1.0.0 zlib1g "libpcre2-*" liblua5.3-0 tar curl socat && \
