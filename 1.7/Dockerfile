@@ -5,11 +5,11 @@ MAINTAINER Dinko Korunic <dkorunic@haproxy.com>
 LABEL Name HAProxy OSS
 LABEL Release OSS Edition
 LABEL Vendor HAProxy
-LABEL Version 1.7.11
+LABEL Version 1.7.12
 LABEL RUN /usr/bin/docker -d IMAGE
 
 ENV HAPROXY_BRANCH 1.7
-ENV HAPROXY_MINOR 1.7.11
+ENV HAPROXY_MINOR 1.7.12
 ENV HAPROXY_SHA256 4118178b553a107b227f3f84774c7a50ae0b3ac2be39211c3db511ed4efe48ce
 ENV HAPROXY_SRC_URL http://www.haproxy.org/download
 
