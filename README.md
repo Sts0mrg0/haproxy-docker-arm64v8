@@ -7,7 +7,7 @@
 -	[`1.8.25`, `1.8`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.8/Dockerfile)
 -	[`1.7.12`, `1.7`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.7/Dockerfile)
 -	[`1.6.15`, `1.6`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.6/Dockerfile)
--	[`1.5-dev26`, `1.5`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.5/Dockerfile)
+-	[`1.5.19`, `1.5`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.5/Dockerfile)
 
 # Quick reference
 
