@@ -3,11 +3,11 @@
 -	[`2.2-dev6`, `2.2`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/2.2/Dockerfile)
 -	[`2.1.4`, `2.1`, `latest`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/2.1/Dockerfile)
 -	[`2.0.14`, `2.0`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/2.0/Dockerfile)
--	[`1.9-dev11`, `1.9`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.9/Dockerfile)
+-	[`1.9.15`, `1.9`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.9/Dockerfile)
 -	[`1.8.25`, `1.8`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.8/Dockerfile)
 -	[`1.7.12`, `1.7`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.7/Dockerfile)
 -	[`1.6.15`, `1.6`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.6/Dockerfile)
--	[`1.5.19`, `1.5`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.5/Dockerfile)
+-	[`1.5-dev26`, `1.5`](https://github.com/haproxytech/haproxy-docker-arm64v8/blob/master/1.5/Dockerfile)
 
 # Quick reference
 
